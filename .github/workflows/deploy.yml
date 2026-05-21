@@ -27,4 +27,4 @@ jobs:
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/todo-app:latest
 
       - name: Trigger Render deploy hook
-        run: curl -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
+        run: curl -X POST https://api.render.com/deploy/srv-d87ca7d7vvec738tc1lg?key=hqgaRlSvCeA

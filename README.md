@@ -35,6 +35,6 @@ Open `http://localhost:10000`
 3. Set:
    - **Build Command:** `npm install`
    - **Start Command:** `npm start`
-4. Render will assign a public URL automatically
+4. Render will assign a public URL automatically.
 
 The server binds to `0.0.0.0:PORT` using the `PORT` environment variable Render injects at runtime.

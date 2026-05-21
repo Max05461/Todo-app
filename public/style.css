@@ -1,0 +1,21 @@
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.list-group-item {
+  transition: background-color 0.15s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+.form-check-input {
+  cursor: pointer;
+  width: 1.1em;
+  height: 1.1em;
+}
+
+#todo-input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
